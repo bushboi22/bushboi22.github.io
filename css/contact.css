@@ -1,0 +1,106 @@
+/*
+Author:Jeremy
+Date:
+File Name: contact.css
+*/
+
+/* Body style rules */
+body {
+	background: linear-gradient(to top right, #fff 0%, #6699ff 100%) no-repeat fixed center;
+	text-align: center;
+}
+
+/* Link display rules */
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+/* Style rule for the header */
+header {
+	padding: 2%;
+	color: #110934;
+	text-align: center;
+	font-size: 2em;
+}
+
+
+h1 {
+	font-family: "Crimson Text", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* Style rule for navigation bar*/
+nav {
+	background-color: #568cf1;
+	padding: 3%;
+	text-align: center;
+	font-size: 1em;
+	text-decoration-color: #fff;
+}
+
+/* Style for the container element */
+#container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* Style for Submit Button*/
+.btn {
+	border: 0;
+	padding: 2%;
+	background-color: #003399;
+	font-size: 1.25em;
+	border-radius: 10px;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style rules for form elements */
+#form {
+	width: auto;
+
+}
+
+#fieldset {
+	margin-bottom: 2%;
+}
+
+legend {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+label {
+	display: inline;
+	padding: 3%;
+}
+
+.grid {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: auto auto;
+	padding: 2%;
+	text-align: left;
+}
+
+input {
+	text-align: center;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .9em;
+	text-align: center;
+	padding: 2%;
+	background-color: #3900a3;
+	color: #fff;
+}

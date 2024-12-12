@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--
+    Student Name:
+    File Name:
+    Date:
+-->
+<html lang="en">
+<title>Contact Us | Greg's Cat Photography</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/contact.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playwrite+GB+J+Guides:ital@0;1&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+<header>
+
+    <head>
+        <h1>&#128008; Greg's Cat &#128008;</h1>
+        <h1>&#128008; Photography &#128008;</h1>
+    </head>
+    <nav>
+        <a href="homepage.html">Home</a>&#128049;
+        <a href="protfolio.html">Portfolio</a>&#128049;
+        <a href="#FAQ.html">FAQ</a>&#128049;
+        <a href="pricing.html">Pricing</a>&#128049;
+        <a href="contact.html">Contact Us</a>
+    </nav>
+</header>
+
+<body>
+    <div id="form">
+        <!--Customer Information-->
+        <!--PII-->
+        <form class="grid">
+            <fieldset>
+                <legend>Customer Information</legend>
+                <!--First Name-->
+                <p>
+                    <label for="fName">First Name:</label>
+                    <input type="text" name="fName" id="fName" required>
+                </p>
+                <!--Last Name-->
+                <p>
+                    <label for="lName">Last Name:</label>
+                    <input type="text" name="lName" id="lName" required>
+                </p>
+                <!--Email-->
+                <p>
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email" required placeholder="example@domain.com">
+                </p>
+                <!--Phone Number-->
+                <p>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" name="phone" id="phone" required placeholder="(123)456-7890">
+                </p>
+            </fieldset>
+            <!--Card Information-->
+            <fieldset>
+                <legend>Card Information</legend>
+                <!--Card Name-->
+                <p>
+                    <label for="cName">Name on Card:</label>
+                    <input type="text" name="cName" id="cName" required>
+                </p>
+                <!--Card Number-->
+                <p>
+                    <label for="cNum">Card Number:</label>
+                    <input type="number" size="16" name="cNum" id="cNum" required>
+                </p>
+                <!--Ex Date-->
+                <p>
+                    <label for="expDate">Expiration Date:</label>
+                    <input type="text" name="expDate" id="expDate" placeholder="MM/YY" size="4" required>
+                </p>
+                <!--CCV-->
+                <p>
+                    <label for="ccv">CCV:</label>
+                    <input type="number" size="3" name="ccv" id="ccv" required>
+                </p>
+            </fieldset>
+        </form>
+        <form class="grid">
+            <!--Form to fill out-->
+
+            <!--Photo Form-->
+            <fieldset>
+                <legend>Photography Form</legend>
+                <label>Select Your Tier:</label>
+                <select name="PhotoShootDeets">
+                    <option>Select</option>
+                    <option>Standard</option>
+                    <option>Princess Themed</option>
+                    <option>Cowboy/girl Themed</option>
+                    <option>Custom Themed</option>
+                </select>
+                <!--Custom Option instructions-->
+                <p></p>
+                <label>Fill out with information about what you are looking for in the shoot:</label>
+                <textarea name="photoform" rows="8" cols="65"></textarea>
+                </p>
+            </fieldset>
+            <!--Location Form-->
+            <fieldset>
+                <legend>Location Form</legend>
+                <!--At home-->
+
+                <input type="radio" id="option 1" value="Option 1" name="home">
+                <label>At Home
+                    (We come to you)
+                </label>
+                <!--Studio-->
+
+                <input type="radio" id="option 2" value="Option 2" name="studio">
+                <label>In the Studio
+                    (You come to us)
+                </label>
+                <!--Outdoor-->
+
+                <input type="radio" id="option 3" value="Option 3" name="outdoors">
+                <label>Outdoors
+                    (We rendezvous at one or more locations)
+                </label>
+                <!--Custom Option instructions-->
+                <p>
+                    <label>Do you have any locations in mind? If not we've got you covered! (Only fillout if you
+                        selected Outdoors)</label>
+                    <textarea name="locationform" rows="8" cols="60"></textarea>
+                </p>
+
+            </fieldset>
+            <input type="submit" id="submit" value="Submit" class="btn">
+        </form>
+
+    </div>
+</body>
+
+<footer>
+    <p>&copy; Copyright 2021. All Rights Reserved.</p>
+    <p>Designed By: Jeremy R</p>
+    <p>gregcatphot@domain.com</p>
+</footer>
+
+</html>

@@ -1,0 +1,98 @@
+/* CSS reset*/
+#css1,
+#css2,
+#css3,
+body,
+header,
+nav,
+footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+
+/* CSS text boxes*/
+#css1,
+#css2,
+#css3 {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    width: 33%;
+}
+
+
+/* Website */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    color: #47476b;
+    padding-top: 1em;
+    border-top: 3px solid #47476b;
+    margin-top: 1em;
+}
+
+body {
+    padding: 2%;
+    background-color: #d1d1e0;
+}
+
+main {
+    padding: 2%;
+    font-family: Geneva, Arial, sans-serif;
+    margin-bottom: 20%;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: Georgia, Times, serif;
+    padding: 3%;
+    color: #47476b;
+    text-align: center;
+}
+
+ul {
+    background-color: #568cf1;
+    padding: 3%;
+    text-align: center;
+    font-size: 2em;
+    text-decoration-color: #fff;
+}
+
+nav ul {
+    display: inline-block;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav li a {
+    display: inline-block;
+    color: #fff;
+}
+
+main p {
+    display: block;
+    font-size: 1.25em;
+}
+
+main h3 {
+    padding-top: 2%;
+    font-size: 2em;
+}
+
+/* Link display rules */
+nav a:link {
+    text-decoration: none;
+}
+
+nave a:visited {
+    text-decoration: none;
+}
